@@ -1,0 +1,73 @@
+    /* Main Hero */
+    main .hero {
+        padding: 64px 0px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    main .hero .hero_title {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    main .hero .hero_title h1 {
+        text-align: center;
+    }
+    
+    main .hero .hero_title p {
+        margin-top: 24px;
+        margin-bottom: 0px;
+        z-index: 3;
+        text-align: center;
+    }
+    
+    main .hero .hero_title img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -3;
+        border-radius: 12px;
+    }
+    
+        /* Main Shadow */
+    .shadow {
+        top: 281px;
+    }
+    
+        /* Main Type Cards */
+    main .type_cards {
+        margin-bottom: 160px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+    
+    main .type_cards .type_card {
+        cursor: pointer;
+    }
+    
+    main .type_cards .type_card .type_title h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #E7816B;
+    }
+    
+    main .type_cards .type_card .type_title p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        color: #333136;
+        margin-top: 16px;
+    }
+    
+    main .type_cards .type_card .type_title {
+        background-color: #FDF3F0;
+        border-radius: 0 0 10px 10px;
+        padding: 32px;
+    }
