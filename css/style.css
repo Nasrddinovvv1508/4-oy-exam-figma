@@ -73,6 +73,78 @@ li {
   color: #E7816B;
 }
 
+footer {
+  background-color: #1D1C1E;
+  padding: 144px 164px 72px;
+}
+
+footer .up-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 31px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+footer .up-footer .auth ul {
+  display: flex;
+  gap: 42px;
+}
+
+footer .up-footer .auth ul a {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+footer .up-footer .auth ul a:hover {
+  color: #E7816B;
+}
+
+footer .down-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer .down-footer > div:nth-child(1) {
+  margin-right: 100px;
+}
+
+footer .down-footer > div:nth-child(3) {
+  text-align: right;
+}
+
+footer .down-footer div {
+  width: 350px;
+}
+
+footer .down-footer div p, footer .down-footer div a {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 26px;
+}
+
+footer .down-footer div span {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+  opacity: 60%;
+}
+
+footer .down-footer .logos {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 16px;
+}
+
 .container {
   max-width: 1111px;
   width: 100%;
@@ -208,9 +280,9 @@ li {
   padding: 72px 95px 46px;
   background-color: #E7816B;
   border-radius: 12px;
-  margin-bottom: 30px;
   position: relative;
   z-index: 4;
+  margin-bottom: -75px;
 }
 
 .user_project .six_circles {

@@ -1,0 +1,75 @@
+@import '../abstract';
+
+footer {
+    background-color: #1D1C1E;
+    padding: 144px 164px 72px;
+
+    .up-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+        margin-bottom: 31px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+
+        .auth {
+            ul {
+                display: flex;
+                gap: 42px;
+
+                a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    letter-spacing: 2px;
+                    color: $white-color;
+                    transition: all 0.3s;
+                }
+
+                a:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+
+    .down-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        &>div:nth-child(1) {
+            margin-right: 100px;
+        }
+
+        &>div:nth-child(3) {
+            text-align: right;
+        }
+
+        div {
+            width: 350px;
+
+            p, a {
+                font-size: 16px;
+                font-weight: 700;
+                color: rgba(255, 255, 255, 0.6);
+                line-height: 26px;
+            }
+
+            span {
+                width: 200px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $white-color;
+                opacity: 60%;
+            }
+        }
+
+        .logos {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 16px;
+        }
+    }
+}
