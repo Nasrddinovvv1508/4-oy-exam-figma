@@ -41,3 +41,50 @@
         }
     }
 }
+
+
+.design_section {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 160px;
+    row-gap: 24px;
+    column-gap: 28px;
+
+    .web_design {
+        width: 541px;
+        height: 640px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        overflow: hidden;
+        border-radius: 15px;
+        position: relative;
+
+        img {
+            z-index: -1;
+        }
+
+        h1 {
+            // color: #fff;
+            position: absolute;
+            z-index: 1;
+        }
+    }
+
+    .app_design, .graphic_design {
+        width: 541px;
+        height: 308px;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    div {
+        
+        img {
+            transition: all 0.4s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+}

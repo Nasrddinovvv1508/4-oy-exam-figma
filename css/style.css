@@ -16,6 +16,12 @@ li {
   list-style: none;
 }
 
+.shadow {
+  position: absolute;
+  z-index: -1;
+  top: 475px;
+}
+
 .btn {
   padding: 18px 24px;
   border-radius: 8px;
@@ -113,4 +119,47 @@ li {
   position: absolute;
   right: 0px;
   z-index: 1;
+}
+
+.design_section {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 160px;
+  row-gap: 24px;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+
+.design_section .web_design {
+  width: 541px;
+  height: 640px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+}
+
+.design_section .web_design img {
+  z-index: -1;
+}
+
+.design_section .web_design h1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.design_section .app_design, .design_section .graphic_design {
+  width: 541px;
+  height: 308px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.design_section div img {
+  transition: all 0.4s;
+}
+
+.design_section div img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
