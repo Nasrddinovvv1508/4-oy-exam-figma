@@ -1,0 +1,43 @@
+@import "../abstract";
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: $main-color;
+    margin-bottom: 160px;
+    border-radius: 12px;
+
+    .hero_title {
+        margin-left: 95px;
+        z-index: 2;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 48px;
+            text-align: left;
+            color: $white-color;
+        }
+
+        p {
+            width: 445px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            color: $white-color;
+        }
+    }
+
+    .hero_img {
+        position: relative;
+
+        .circle {
+            position: absolute;
+            right: 0px;
+            z-index: 1;
+        }
+    }
+}

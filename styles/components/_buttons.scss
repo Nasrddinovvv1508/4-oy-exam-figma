@@ -1,0 +1,28 @@
+@import '../abstract';
+
+.btn {
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.btn-light {
+    background-color: $white-color;
+    color: $near-black;
+    transition: all 0.4s;
+}
+.btn-light:hover {
+    background-color: $near-black;
+    color: $white-color;
+}
+
+.btn-peach {
+    background-color: $main-color;
+    color: $white-color;
+}
