@@ -1,0 +1,104 @@
+/* Header */
+.header_container .auth ul .contact {
+    color: #E7816B;
+}
+
+/* Main */
+main .hero {
+    padding: 55px 96px 55px 0;
+    justify-content: space-between;
+    border-radius: 15px;
+    position: relative;
+}
+
+main .hero .hero_title {
+    text-align: left;
+}
+
+main .hero .hero_title h1 {
+    text-align: left;
+}
+
+main .hero .hero_title p {
+    text-align: left;
+    margin-top: 32px;
+}
+
+main .hero .hero_title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main .hero form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+main .hero form div {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+    padding-left: 16px;
+}
+
+main .hero form input {
+    background-color: transparent;
+    border: none;
+    width: 90%;
+    padding: 5px 0;
+    color: #fff;
+}
+
+main .hero form input::placeholder, textarea::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+main .hero form input:focus {
+    outline: none;
+}
+
+main .hero form div textarea {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    float: left;
+}
+
+main .hero form div textarea:focus {
+    outline: none;
+}
+
+
+main .countries {
+    margin-bottom: 160px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+main .countries .countries_card {
+    text-align: center;
+}
+
+
+main .countries h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #333136;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+/* Footer */
+footer .container .up-footer .auth ul .contact {
+    color: #E7816B;
+}
