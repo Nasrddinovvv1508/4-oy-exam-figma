@@ -47,6 +47,11 @@ li {
 .btn-peach {
   background-color: #E7816B;
   color: #fff;
+  transition: all 0.4s;
+}
+
+.btn-peach:hover {
+  background-color: #ad513c;
 }
 
 .header_container {
@@ -157,6 +162,8 @@ footer .down-footer .logos {
   background-color: #E7816B;
   margin-bottom: 160px;
   border-radius: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hero .hero_title {

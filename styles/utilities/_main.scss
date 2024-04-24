@@ -1,11 +1,13 @@
 @import "../abstract";
 
-.hero {
+.hero { 
     display: flex;
     align-items: center;
     background-color: $main-color;
     margin-bottom: 160px;
     border-radius: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
 
     .hero_title {
         margin-left: 95px;

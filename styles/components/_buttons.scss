@@ -25,4 +25,9 @@
 .btn-peach {
     background-color: $main-color;
     color: $white-color;
+    transition: all 0.4s;
+}
+
+.btn-peach:hover {
+    background-color: #ad513c;
 }

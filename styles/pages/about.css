@@ -1,0 +1,139 @@
+/* Header */
+.header_container .auth .about {
+    color: #E7816B;
+}
+
+/* Main */
+main .hero {
+    padding-right: 0;
+    justify-content: space-between;
+    border-radius: 15px;
+    position: relative;
+}
+
+main .hero .hero_title {
+    text-align: left;
+}
+
+main .hero .hero_title h1 {
+    text-align: left;
+}
+
+main .hero .hero_title p {
+    text-align: left;
+    margin-top: 32px;
+}
+
+main .hero .hero_title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shadow {
+    top: 475px;
+}
+
+.world_info {
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.world_info .img_part img {
+    z-index: 4;
+}
+
+.world_info .title_part {
+    background-color: #FDF3F0;
+    padding: 154px 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+}
+
+.world_info .title_part h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #E7816B;
+}
+
+.world_info .title_part p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    z-index: 4;
+}
+
+.world_info .title_part img {
+    position: absolute;
+    bottom: 0;
+    right: 197px;
+}
+
+main .countries {
+    margin-bottom: 160px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+main .countries .countries_card {
+    text-align: center;
+}
+
+
+main .countries h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #333136;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+
+main .real_deal {
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+}
+
+main .real_deal .deal_title {
+    background-color: #FDF3F0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 154px 95px;
+    position: relative;
+}
+
+main .real_deal .deal_title h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #E7816B;
+}
+
+main .real_deal .deal_title p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #333136;
+}
+
+main .real_deal .deal_title img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Footer */
+footer .container .up-footer .auth ul .about {
+    color: #E7816B;
+}
