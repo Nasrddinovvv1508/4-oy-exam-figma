@@ -1,0 +1,90 @@
+header .auth ul .location {
+    color: #E7816B;
+}
+
+footer .up-footer .auth ul .location {
+    color: #E7816B;
+}
+
+/* Main */
+.locations {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    margin-bottom: 160px;
+}
+
+
+
+.locations .card_location {
+    background-color: #FDF3F0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 15px;
+    padding: 88px 95px;
+    position: relative;
+    cursor: pointer;
+}
+
+.map_location {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.map_location img {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.map_location img:hover {
+    transform: scale(1.2);
+}
+
+.locations .australia {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.locations .card_location h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #E7816B;
+    margin-bottom: 24px;
+}
+
+.locations .card_location img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 335px;
+}
+
+.locations .card_location .location_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations .card_location .location_title div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.locations .card_location .location_title h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #333136;
+}
+
+.locations .card_location .location_title p,
+a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #333136;
+}
